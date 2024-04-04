@@ -1,0 +1,614 @@
+{
+  "id": 13218,
+  "startTime": "19:20",
+  "endTime": "19:20",
+  "customer": {
+    "id": 49,
+    "name": "FToster",
+    "full_name": "FToster",
+    "phone_number": "+972111115602"
+  },
+  "points": [
+    {
+      "id": -1,
+      "label": "תוצרת הארץ 1, פתח תקווה, ישראל",
+      "latitude": 32.0901734,
+      "longitude": 34.8595631,
+      "placeholder": "Start Point",
+      "dateTime": "",
+      "location": {"lat": 0, "lng": 0},
+      "status": "GoToPoint",
+      "passengers": [
+        {
+          "id": "6439ea46-aacb-4d47-ac0f-9bdc13ae2994",
+          "first_name": "FTostercontact",
+          "last_name": "LNameContact",
+          "phone_number": "+972111115601",
+          "unmanaged_profile_id": "6439ea46-aacb-4d47-ac0f-9bdc13ae2994",
+          "address": {
+            "label": "Tiberias, ישראל",
+            "location": {"lat": 32.795859, "lng": 35.530973}
+          },
+          "is_disabled": false,
+          "status": "enable",
+          "waypoint_order": 1
+        }
+      ]
+    },
+    {
+      "id": 2419,
+      "label": "מגשימים 20, פתח תקווה, ישראל",
+      "latitude": 32.0874693,
+      "longitude": 34.8529316,
+      "dateTime": "",
+      "location": {"lat": 0, "lng": 0},
+      "status": "None",
+      "passengers": [
+        {
+          "id": "f08e3b6c-3dc3-4478-9da2-850e07c18314",
+          "first_name": "Tmp501FName",
+          "last_name": "Tmp503LName",
+          "phone_number": "+972111111501",
+          "unmanaged_profile_id": "",
+          "address": {
+            "label": "Tiberias, ישראל",
+            "location": {"lat": 32.795859, "lng": 35.530973}
+          },
+          "is_disabled": false,
+          "status": "enable",
+          "waypoint_order": 0
+        }
+      ]
+    },
+    {
+      "id": -2,
+      "label": "השילוח 9, פתח תקווה, ישראל",
+      "latitude": 32.0910201,
+      "longitude": 34.8551984,
+      "placeholder": "End Point",
+      "status": "None",
+      "passengers": [
+        {
+          "id": "f08e3b6c-3dc3-4478-9da2-850e07c18314",
+          "first_name": "Tmp501FName",
+          "last_name": "Tmp503LName",
+          "phone_number": "+972111111501",
+          "unmanaged_profile_id": "",
+          "address": {
+            "label": "Tiberias, ישראל",
+            "location": {"lat": 32.795859, "lng": 35.530973}
+          },
+          "is_disabled": false,
+          "status": "enable",
+          "waypoint_order": 0
+        }
+      ]
+    }
+  ],
+  "driver": {
+    "id": "01be6bd6-e2db-4dc3-aeea-1cb577432028",
+    "first_name": "TestDriver",
+    "last_name": "LastName",
+    "address": {
+      "location": {"lat": 32.0853, "lng": 34.78177},
+      "label": "Tel Aviv-Yafo, ישראל"
+    },
+    "email": "rijibi3870@scubalm.com",
+    "unmanaged_profile_id": "",
+    "group": "Driver",
+    "customer": 26,
+    "status": "enable",
+    "phone_number": "+972559665235",
+    "is_independent": false
+  },
+  "tripData": {
+    "original": {
+      "location": {"lat": 32.0901734, "lng": 34.8595631},
+      "label": "תוצרת הארץ 1, פתח תקווה, ישראל",
+      "coordinates": {"lat": 32.0901734, "lng": 34.8595631}
+    },
+    "stops": [
+      {
+        "id": 2419,
+        "address": {
+          "location": {"lat": 32.0874693, "lng": 34.8529316},
+          "label": "מגשימים 20, פתח תקווה, ישראל"
+        },
+        "waypoint_order": 2,
+        "status": "None",
+        "location": {
+          "location": {"lat": 32.0874693, "lng": 34.8529316},
+          "label": "מגשימים 20, פתח תקווה, ישראל"
+        },
+        "coordinates": {"lat": 32.0874693, "lng": 34.8529316}
+      }
+    ],
+    "destination": {
+      "location": {"lat": 32.0910201, "lng": 34.8551984},
+      "label": "השילוח 9, פתח תקווה, ישראל",
+      "coordinates": {"lat": 32.0910201, "lng": 34.8551984}
+    }
+  },
+  "passengers": [
+    {
+      "id": "f08e3b6c-3dc3-4478-9da2-850e07c18314",
+      "first_name": "Tmp501FName",
+      "last_name": "Tmp503LName",
+      "phone_number": "+972111111501",
+      "unmanaged_profile_id": "",
+      "address": {
+        "label": "Tiberias, ישראל",
+        "location": {"lat": 32.795859, "lng": 35.530973}
+      },
+      "is_disabled": false,
+      "status": "enable",
+      "waypoint_order": 0
+    },
+    {
+      "id": "6439ea46-aacb-4d47-ac0f-9bdc13ae2994",
+      "first_name": "FTostercontact",
+      "last_name": "LNameContact",
+      "phone_number": "+972111115601",
+      "unmanaged_profile_id": "6439ea46-aacb-4d47-ac0f-9bdc13ae2994",
+      "address": {
+        "label": "Tiberias, ישראל",
+        "location": {"lat": 32.795859, "lng": 35.530973}
+      },
+      "is_disabled": false,
+      "status": "enable",
+      "waypoint_order": 1
+    }
+  ],
+  "status": "GoingToStart",
+  "dayOfWeek": "חמישי",
+  "direction": {
+    "routes": [
+      {
+        "legs": [
+          {
+            "steps": [
+              {
+                "distance": {"text": "0.2 km", "value": 196},
+                "duration": {"text": "1 min", "value": 79},
+                "polyline": {"points": "srzbEaowsEGAmD[c@CgAKYCa@E"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.091927, "lng": 34.859808},
+                "start_location": {"lat": 32.090177, "lng": 34.8595317},
+                "html_instructions": "Head <b>north</b> on <b>Shacham St</b> toward <b>Totseret ha-Arets St</b>"
+              },
+              {
+                "distance": {"text": "1.3 km", "value": 1264},
+                "duration": {"text": "3 mins", "value": 202},
+                "maneuver": "turn-left",
+                "polyline": {
+                  "points": "q}zbEypwsE]AYAQbD?LIvBAb@KxCSpECj@?PEn@Ab@UrFCl@AP?JGvAAVEbBAt@?zA@bABf@@d@BnBBrC?|@?B@hA?`@?V?TAR?VEt@EfA?BGrAIvAC^?F?F?F@D@F@D@HDFFJ"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.0927904, "lng": 34.8468272},
+                "start_location": {"lat": 32.091927, "lng": 34.859808},
+                "html_instructions": "Turn <b>left</b> onto <b>Zeev Jabotinsky St</b>/<wbr/><b>Route 481</b>"
+              },
+              {
+                "distance": {"text": "3.3 km", "value": 3287},
+                "duration": {"text": "3 mins", "value": 155},
+                "maneuver": "ramp-right",
+                "polyline": {
+                  "points": "}b{bEu_usEGPELILOVMPOLCBKHQJQFOBQDM@S@w@@gBAeAAo@Cy@GoBYC?_@@a@G{@QyF_Ba@Ma@M{F_B_AYaBe@{Co@mJoAe@Ig@GwFy@QCSCO?OAaKwAGAYEYE]G]EaUaDc@Ga@Gc@Iu]_FiEm@yGoAmD_AkDqAa@Ss@[gAi@"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.1213164, "lng": 34.8533386},
+                "start_location": {"lat": 32.0927904, "lng": 34.8468272},
+                "html_instructions": "At the interchange <b>Geha Junction</b>, keep <b>right</b> and follow signs for <b>Route 4</b> toward <b>Haifa</b>"
+              },
+              {
+                "distance": {"text": "0.2 km", "value": 233},
+                "duration": {"text": "1 min", "value": 15},
+                "maneuver": "ramp-right",
+                "polyline": {"points": "gu`cEkhvsEs@w@qA{@QKcBqAwAkA"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.1230248, "lng": 34.8547712},
+                "start_location": {"lat": 32.1213164, "lng": 34.8533386},
+                "html_instructions": "Take the exit toward <b>Route 5</b>"
+              },
+              {
+                "distance": {"text": "6.8 km", "value": 6826},
+                "duration": {"text": "5 mins", "value": 279},
+                "polyline": {
+                  "points": "{_acEiqvsEaCsCS_@COCOAQ?[@_@@e@tBiILk@Nm@DQd@kB`@}Ax@uCBMZ}@HYBOFe@Nc@~@mCj@}Bl@_DRgBd@mE@I@K@QBODi@Fi@\\_E?GHw@D]D[BOBMPsAZ}Aj@eC^uA@A~AqFfA}D\\kAJ_@Pm@dBkGFW^{ATkAP_APuALeALsAHwAH}BBmA?}A?oAGaAMeBM_B_@}C_@qB]qA]kAi@yA}@_CKYo@}AUg@}@mBSe@a@{@_@u@a@_Ag@iA]u@k@sAM[cAiCY}@Wu@CKYaAYqA]eBi@{Ck@qFYgFC{AEwB?G?i@@k@@i@D_Bn@{Lj@}IDe@Fi@Ba@D_@FgBP{DLkBBi@L}BTsCRmCRkC@UNkBDeAJaBHeA@G@QBSBU@UHoAd@yGf@wHb@}EFi@RwAFYF[@IBODSBYDYPgANs@tA}GtAyG`B{HLk@fDkPt@yDVsAF_@Jm@L{@XiC"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.1168368, "lng": 34.9232914},
+                "start_location": {"lat": 32.1230248, "lng": 34.8547712},
+                "html_instructions": "Take the ramp onto <b>Route 5</b>"
+              },
+              {
+                "distance": {"text": "1.2 km", "value": 1227},
+                "duration": {"text": "1 min", "value": 53},
+                "maneuver": "ramp-right",
+                "polyline": {
+                  "points": "gy_cEq}ctEDGBG@GHg@BYD]TmC\\qFF_BXqFVwFLaDPyDTyDBa@?ABm@D_A@]Do@NcBH_AFk@De@NaANw@Lk@ZmAJ[h@wAPi@J[DM"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.1147283, "lng": 34.9359792},
+                "start_location": {"lat": 32.1168368, "lng": 34.9232914},
+                "html_instructions": "At the interchange <b>Qesem Interchange</b>, keep <b>right</b> and follow signs for <b>Route 6</b>/<wbr/><b>Route 444</b> toward <b>Rosh HaAyin</b>"
+              },
+              {
+                "distance": {"text": "59.9 km", "value": 59903},
+                "duration": {"text": "33 mins", "value": 1991},
+                "polyline": {
+                  "points": "al_cE{lftE?K@GHWPa@Pc@@A@GBIFUJc@Ho@Fu@@q@?WCi@Ee@Ee@AWE[Oi@[w@Sk@Q]c@o@KMQSIEc@]m@Yq@U]GQEq@AC@q@BS@c@Bm@Ds@DI?a@@A?c@Ba@?A?a@@m@CYCA?WEk@ISEOG_@KAAICSIa@QAAu@e@_As@QO{BgBkDaDCCuCkCSQIIO]yGeGeEqDA?YYy@q@CCsIqHu@m@OMSIICcD{CcI{HsLcLqBmBoCqCuPsOmF_F{D{CoAaAGCaAq@u@g@UMwA_AcDeBm@[wFaCiJcDmCs@qDw@CAaAOgBYcEk@iE_@cK_@eC?qA?iEJM?qAFcCNc@DmCRqD^}QhB}LtAyHx@gEb@c@DQBcYvC_P`ByJhA{BRuHv@gV|ByF`@cEZc@Dc@BoIn@gIt@cD\\iD\\mMlAeP~AkCRsDHuA@}B@sDEiDQE?iH{@mAS}EaAiDeAo@Ua@MeC{@wCqAqBcAqCcBc@Y_Ao@oA{@mE{CeMeJuAaA}BaByB_BkFyD]WkDeCiE_DoCqByb@}Z]UmFyD_CaBsCkBECYO_@U}@i@u@c@oHeDwAo@}NoFeC_A}UyIsAe@eHkCWGiRcH}U{IoCgAkBo@a@O{P}FaNiDkCm@gBa@qRsEySaFiMcEsKkDc@OWIwZ}Ja@Mq@SQGmJ}Ce@OyL_EaSuG_@Ma@M_QwFyk@gUmDwBYOaMuHAAwAcA]WwB_B{@m@]W[W}DuCq@e@iE{CeAu@UQGEy@o@y@q@CCoFkD_HwD]Q{DiBcHyCKEa@MoDkAcD_AcA[a@K}@WkAWeAUiH{A{B[gFw@iE]uF_@[Ac@AyDMkI_@gEOc@CS?s@EkBGyEQ_GUaDOk@CqGMcAEUAeHSkBCI?gGG}A@aO\\iAHsCL_@BwAHiBNeCXc@DcCVqEr@yDt@kCd@aRjDmKpBqHxAcF`A}IdBqCj@qAVyBRy@H}CJY@I?{CAyDSeDe@eDs@IC_D_AICWKa@MwPiGeOmF_UcImI{CuCeA_DeAcBi@[IuD_A_C]_@GgDWqDIyDFeH`@A?iKr@a@Dc@BgAHc@DiBLwYvByCP_A@_A@k@Ac@?c@Aa@A]?mBMoBQ{Dq@SGgDcAaEkAMGa@Ma@Oa@Ma@Oa@M_@Oa@Oa@Ma@Oa@MQIMCc@Ma@Ma@Ka@Ma@MMESGa@Ma@Ma@Ma@MEA[Ka@M_@Oa@Ma@Oa@Ma@Oa@Ma@O_@Ma@Oa@Ma@Oa@Ma@O_@Ma@Oa@MA?_@Ma@Ma@Ka@Ma@Ma@Kc@Ma@Ma@Ma@Ka@MEAa@Ic@Ia@Ic@IuB_@]CaHm@g@C}BMIAok@m@uCGo@Ec@Ew@C_AAcP]c@AE?YA{EEmLKc@Ac@?eFEgEGqDIwESeAKkDY]C]Ec@Cc@CiF]CAc@CgDWeAGgBKO?eBCi@?c@?Y?I?c@@sBF[@c@BqMb@sBFo@Bq@BcDLoBHG?c@Bc@@c@Ba@Bc@@c@Bc@@c@Bc@@E?]?c@?c@?c@?c@?E?]Ac@Ac@Ac@A_@AC?c@Cc@Cc@Ca@Cc@Cc@CAAa@Ec@Ec@Ga@E[EGAG?[Ga@Ka@Ic@IGAYIc@Ia@Ka@Ka@K_@ICAa@M?A_@Ma@Ma@O]KCA_@Qa@Q_@O[OEA_@Q_@Qa@QA?]S]SGCWOUOGE_@U]U_@U]U]UIESS]W[Y]W[Y]WMMMK[Y]Y[[[Y[YQQIG[[KMOKY[[[[YMIMQ[[[YUWECYY[[uBuBmBmB}DwD[[cDaDsAqAqLeLKIwBuBo@k@[YQOeBoA[WCAmBkAKE_@S_@QYOECeB_A_DmAGCYIyBs@sBg@GA[G_Dk@wCc@C?qAMYCQAGAc@CmAGI?w@CsDMG?c@CC?_@?c@Ac@?c@Ac@?c@Ac@?GA[Ac@Ac@Ac@Aa@Cc@Ac@Ac@Ac@CG?[Ac@Ac@Cc@Ac@Ac@Ac@Cc@Ac@Ac@CS?OAc@?c@Ac@?c@AW?K?c@@c@?c@@c@@c@@I?Y@a@Bc@Bc@BW@K@c@Fc@DI@WDO@SDWDK@SBMBc@Fc@FOBQDc@Ha@Ha@JC?_@HQDODQBOFc@Ja@JODMDC?a@Jc@Ja@Ja@Jc@HmAZkAToAVcALiARiBPoBLA?oBDK@mA?mBCaBImBMkBQiBYsB_@g@IkLaC}@SyEaAiCi@]IA?oB[s@M}AMeAK_ACgACmAAy@?y@@mAFy@Fe@BmAL[Dc@Fa@Fc@FG?}@PeAT_ATe@NUHKDa@L_@PqAh@}@b@aAf@kAn@CBw@j@a@\\o@l@o@l@QNQP{@r@{CpC}FnF[X[ZsAlAw@t@[XaIlHkA~@SNw@j@WRUPu@h@qBlAcAl@y@f@iAh@oAb@uBp@yA^gATOBc@HuAVkBLs@Bw@Dy@BwCFk@AuEMoFQ]?eACg@?kFEwBEmDEuCEsA?{@Ec@?C?kCIsDIc@Ca@AsDIIAY?{EMoDIc@Ac@Ac@Ac@Ac@AgACqACiC?[?]@O?CA]?q@CuHNc@@c@@a@@c@@c@@gB@sCHG@cTXc@@c@?sCBgBDc@@mEFG@gA@gA@gA@kBBkBBc@@c@?}CDa@Co@Eu@Aw@CyDDsDBw@?w@?eC?cLA_E@aD@iFD{DOm@Es@KwB]oAW}Ac@uAc@u@WqAc@{BcAECaGuCaFcCKESKa@OyAm@oC_AoBk@WGc@Ka@IeAUoAY{@KYCEA[C[Ea@EuCU{CIwC@c@?C?wDCgCBc@@sCBgB@c@?c@?{@@e@?eDEaCKi@CoBQQCiB_@_@KoAa@{@]u@]sBs@oCwA}CsBuBkBi@k@aAcAo@s@[Wm@o@aAgASU]]QSGGm@q@IKi@k@GIy@{@sAwAY][[a@c@qBuBo@m@oAgAsAkAoCqBiCcBoCsACAWKiBw@gDgA_@Mo@Oo@OKAcE_Aa@KmDw@s@QOEc@Ia@Kc@IiDw@[I}Dw@kFmA}J_CsGwAc@Ki@Mi@MqFmAc@KcAUwEeAeIgB[Ik@KgFeA}@S{@QyEcAmCc@MCy@Ec@Ek@CyAC[?_@AC?gBBc@@cCLK@c@DeBPkB\\E@qHbBgB`@c@JkDx@oEbAc@JG@YFa@JiBb@a@Ha@Ja@JODSDiCj@a@Jc@HcAT_B^yCf@{C^_@BW@{@FY@U@_BDwB@_@?mBEYAIAkBKgAMu@KuB[C?]I]G{@QgAScAW}@UkDiAgEwB]OsBgA}BoAGC{C_B_@S{CgBc@Ua@WcDiBaDkB_B{@mCuAKGoEeC]ScCwAmBmAiAw@aDqCg@g@m@q@"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6172742, "lng": 35.0532886},
+                "start_location": {"lat": 32.1147283, "lng": 34.9359792},
+                "html_instructions": "Take the ramp onto <b>Yitzhak Rabin Hwy</b>/<wbr/><b>Route 6</b><div style=\"font-size:0.9em\">Toll road</div>"
+              },
+              {
+                "distance": {"text": "6.0 km", "value": 5956},
+                "duration": {"text": "3 mins", "value": 200},
+                "polyline": {
+                  "points": "}pafEaj}tEyDkEw@{@wAaB}@u@QQkAiAuBaBsDaCuA_A_BmAs@e@w@i@uJ{GgD}BYSOMWSsDqC}AqAeBqAi@]u@a@w@]oAa@uA[eBa@}A[c@G}@Oi@KYEa@Ic@IeASKCw@Sa@KeBe@SGsA_@a@K?Aa@KkDcAaJkCqBk@uA[w@]_EmCYQEEOMOSUW[a@m@w@g@w@MUS_@Yq@e@mAUu@Qk@UaA]iB}AyMi@cFCUMoAUuAIg@UqAIi@EYq@qC}@kCOe@GSoAyCwAgCu@gA_@k@sAiBkAkAY[q@o@gB}A_D}B_@WsBwA_@]]WaA{@eB_Bw@{@Y[e@i@uBsCiBmC{CiGiB}DgCaIACcBkHoAcH{@aEiA}Dw@_Cu@oB"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6536609, "lng": 35.0950506},
+                "start_location": {"lat": 32.6172742, "lng": 35.0532886},
+                "html_instructions": "Continue onto <b>Route 70</b>"
+              },
+              {
+                "distance": {"text": "3.1 km", "value": 3081},
+                "duration": {"text": "3 mins", "value": 150},
+                "maneuver": "turn-slight-left",
+                "polyline": {
+                  "points": "kthfEaoeuEm@w@]i@mFeLO[KSc@{@Yk@Uc@aAmB]s@aA{AQSs@}@Y[u@w@CCkAcAOMwByAAAgB_Aw@]a@Q_A[eAY}@Uy@Ow@Mw@I_BMs@Cq@@i@@e@Bm@Du@HsAP{ATeC`@eLrBgALc@Fs@HuCXuCHqCKgCa@iCq@_DsAcEyB_C}A]WOKk@a@u@i@cDeCSOYS{@m@_Ak@YQ]QIEWMe@UC?o@UOGa@MEAeA]"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6775341, "lng": 35.1060122},
+                "start_location": {"lat": 32.6536609, "lng": 35.0950506},
+                "html_instructions": "Slight <b>left</b> onto <b>Route 6</b><div style=\"font-size:0.9em\">Toll road</div>"
+              },
+              {
+                "distance": {"text": "0.8 km", "value": 762},
+                "duration": {"text": "1 min", "value": 31},
+                "polyline": {
+                  "points": "qimfEqsguE]SMGKCEC_@K_AYu@SMEg@M_@KAAa@Kc@MGAk@SKEo@Uo@YWMMIe@Wg@[s@k@GEg@a@a@a@MMS]YYa@c@c@m@c@s@[g@CGYe@Wi@Wi@m@yA"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6830196, "lng": 35.1104546},
+                "start_location": {"lat": 32.6775341, "lng": 35.1060122},
+                "html_instructions": "Take the <b>Route 77</b> ramp"
+              },
+              {
+                "distance": {"text": "45.3 km", "value": 45283},
+                "duration": {"text": "30 mins", "value": 1829},
+                "polyline": {
+                  "points": "{knfEiohuEq@eCm@cDO_AEQEUkCyNY_B[}AGa@aAqFG]GYCMIi@Q_AaAsF{@{EUqA]qBSgASiAYyAYmA[mAa@wA_@eAKYWm@]u@GMi@eAq@eAo@}@y@aA_AeA}@y@oAeA}AaAu@i@{B}AcBcAsBwA{BaByEkDk@a@mCkBaEwCuEaDqCmB]W]UWQeE{CQMg@]s@g@o@]k@Yo@Um@Qo@Og@K[GKAUCOAAAYAe@AeBCo@Ca@?c@AiBIe@Ec@CQCw@Im@IAAg@Ic@KEAECe@Mg@Sm@Wo@[YOYOk@_@i@a@i@e@k@k@WYSUEGY]EE_@k@QYUc@_@q@Ug@GO]y@Us@GWOe@?ASw@GUI_@Kq@AGMaAKeAGeACaAAgA?cA@eADgAFkATuDFcAHuA@KB]Bi@z@oOj@aK@WD}@Do@FwBDuA?U?U?qACm@Ag@Ew@Go@EWEa@Ko@Kq@I_@EOGWMa@W}@Ys@Sg@AC_@}@Uc@MY_@q@e@w@eBoCGK}BkD}BkD_B}BYa@U]W_@s@iAQWeA_By@mAMQsBcD}AaCQWuA}Bg@{@e@{@eAqBa@{@_@s@_A{BaAeCq@qBi@_B]iAGOc@_Bg@kBc@gBi@gCm@}C}@iFQcAKg@y@sEwBaLYcBKg@k@_D]kBi@sCG]CKG]Ig@G[}@uEAGKk@G]Kg@sAkH]iB_@oBc@cCu@wDCQ]yBKi@Ig@AKG]SkAUwAIg@[yBSsAQaAi@eEy@sGOoAg@cEy@{G[oCGi@Gc@AEOqAIu@g@oEm@aEAIQgAKi@?AKe@CIG][wAK]Uy@s@wB{@{B}@sBy@_Bw@uAeBiCCEs@_Ay@aAiAkAAAWWw@w@IGeBcB[YeDcDwCsCAAaDeDwAyA_H_HyEcF[]i@c@MMkBaBuFwFgBmBq@o@eBgBiHgHCCWWyRwRwE_FsDcD[WuBcBaBoAk@a@oA{@cBoAaBmA{C}B_BkA{EsD_I}FaIoGcDaCaD}BUQiCoByAoAo@k@qAgAMKEEKKmAiAyB_Cw@y@KK?A[[KMMMY]QQOQIKW]GGMQCCY[SUEGAAQUEGY_@W]Y]GKOSW_@W_@W_@W_@W_@Ua@W_@Ua@MSGKOWOUGIIOEEEKUa@Ua@Ua@GMKSSc@EIc@_Aw@_B_AyBmA{CiAeDm@gBu@mCw@_DOe@e@iBe@cBy@eDMg@GWUy@I[CKMg@Me@Og@CMIWQe@CGEOIUOe@GOIUQc@Qc@GMKWQc@Q_@ACSa@Uc@ACQ]Uc@KSMWiBwCkAiBi@y@gD}EW_@i@w@_BcCCEUa@k@aAOWy@cBcA_Cu@yBm@qBI]Wy@Q{@UaAYuAAGQoAM_ACUW}BCOAYEi@MsBKuCGsBAk@c@qNA]Aa@AQ?GEqAGsBEcBAg@GwBCs@Ci@Ai@]_MW_ICi@Ae@AEOeDOwCa@wHg@cKCYI_CCmDBaBBcAF}ALyAZwCVcB@IZ{AH]Ji@fAwD|DqLFSp@qBdAaDl@qBVcAj@aC^wBRqAL_ALoAFa@TeDBYJ_DD}C?_@Ai@?g@AwAGaDIuCKwCAWIoE?[AM?A?g@Ak@A_B?wA@gA@i@@]@M@i@FuA@KB]JcBXoCXeCRoABQXiBFi@RqARqAFi@Hg@Hi@Hi@Hg@PsAHg@@Gl@eEHi@Hg@Hi@lAoIp@mEZsBNaAJs@z@oFHi@F_@|@wGPcANiAt@wFFc@\\_CPkAn@mE`BaLXgBd@kD@A@IHg@PaABSf@kDNiAF_@^eDPgBTqC@QFuAFqCNgEBs@BiB^sMLiE?ADsABi@Bs@@YX}Ib@_OBqA@]@_@@a@@e@@gATuF`@mFb@mE`@_D`@iCb@yC^sBRqAFa@hA_Hb@oCr@oEPeATuAB[xA{IZuBLaANwANyBFaC@iA?kBGwBGeBQwBKgAQcBYiCAGKy@Gk@Go@G}@E]]eDaByOk@{FuAaNm@oGSmB]yDW{BGq@i@sEMs@YwA[sAa@qAa@gAk@{Aw@oBgAsCOa@qA_Du@aBcB{DKSKU_@y@g@cAeCgFu@cBQa@yAcDcAeCaAkCi@yAYy@_AsCcBaGyAkFGSs@oC{@wCaA}DkAkE]kAUy@W{@W{@aCoI}AsFQm@qBkH{@{DOmAKeAGuBAaF^oR@i@VuL?wAA]?i@GuAKaAAGCMGe@I]EMq@}BMg@A?s@_B_@g@W_@_B_CkCaDGKcAaBc@cAEKOc@gAsCw@sCgBoGuA_FoBqGWiAy@iCMa@Sm@cA_DSm@Y_Ak@oBu@mDCKQ{@YqCSuCGqCCmBEkCAi@Ay@EsBWoPA[IyHCqF?kB?I?GA[CoCCkDI{FCkAEqCK}IA[EoEIyEAUCaBC}DEcFG{EC_CG}CIoBOmAY_BWcACM[cAg@iAk@iA{@yAy@cA{@_AmAkASSy@s@sAuAmAmA{BuB}DuDe@g@CCs@m@iBwBy@gAg@mAg@yAQg@g@{B]}CKaCMaEOuFGmD?EKyEKsGAKIoEO}F?GMqESmHAg@E}CEaCCoAEqA?]A]A]?[Ao@GaCKmFAm@G_EAaCBiDBmBDeB@g@Bi@BgA?qC`@wOViJNyDHuALoAZ{Bb@sB~AmHVeAPs@b@kBLe@jAmETeA`AgELg@fAcFTsAPkAHy@B_@@q@@{@AsAA[Ci@IeA_@uCMcAa@aC_AsFIe@m@eDEQEUa@yBIg@WqAUsA_@qB?EGi@CSI_AAYCcA@qA?w@Bs@Fy@Fg@BUBSF[Ju@Jo@PiAHg@Fk@F]Hy@Fu@@m@@_AKcBMcAIi@EYa@uAsAcEOe@ACMa@cAaD]cAYw@q@qBu@kCMe@GYMa@Ka@U{@uAkGCI_@aBIWOe@KUOWc@m@_@k@CCe@c@s@g@]QSK{@[i@Mc@Ka@KQEOEc@Ka@KeAWa@KEA_AS_@ICAq@MSCc@E[Ew@As@@k@DK@s@NuAVa@F}@Jw@DeC@gBBu@?g@C]IWKQKECUUOSEGQc@G[C_@?IAWBc@He@Jg@HWLa@Rm@JYJ[L]DQDOFYDKFQZy@JUPYBGRWX[NQJIHIPO\\YJIHKLO@AJOJOBCR[@EP[P]BEPc@DILYLUDKTc@FMJSLWFKTa@R_@?AP]N[BGP[@EFMJSJUR_@HYHWBI@IBQ"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.7955728, "lng": 35.5257992},
+                "start_location": {"lat": 32.6830196, "lng": 35.1104546},
+                "html_instructions": "Continue onto <b>Route 77</b>"
+              },
+              {
+                "distance": {"text": "0.6 km", "value": 560},
+                "duration": {"text": "2 mins", "value": 106},
+                "maneuver": "turn-slight-left",
+                "polyline": {
+                  "points": "ikdgEgsywE?ACq@COEOEMGIIMMMMGMIIGsBkAQKECYQ]UMESK_@SAAo@e@Y]EIGMAKCG?KAK?M@ODODMFK\\a@\\c@@CX]X]DEPY?AHODQV{@DY"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.796793, "lng": 35.529946},
+                "start_location": {"lat": 32.7955728, "lng": 35.5257992},
+                "html_instructions": "Slight <b>left</b> onto <b>Shim'on Dahan St</b>/<wbr/><b>Route 77</b><div style=\"font-size:0.9em\">Continue to follow Route 77</div>"
+              },
+              {
+                "distance": {"text": "33 m", "value": 33},
+                "duration": {"text": "1 min", "value": 10},
+                "maneuver": "turn-right",
+                "polyline": {"points": "}rdgEemzwE\\TRJ"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.7965362, "lng": 35.5297796},
+                "start_location": {"lat": 32.796793, "lng": 35.529946},
+                "html_instructions": "Turn <b>right</b> onto <b>Bialik St</b>"
+              },
+              {
+                "distance": {"text": "0.1 km", "value": 135},
+                "duration": {"text": "1 min", "value": 35},
+                "maneuver": "turn-left",
+                "polyline": {"points": "kqdgEclzwEXi@Ve@FILMHKFIDOBMRkA@K"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.7959304, "lng": 35.5309967},
+                "start_location": {"lat": 32.7965362, "lng": 35.5297796},
+                "html_instructions": "Turn <b>left</b> onto <b>Brurya St</b><div style=\"font-size:0.9em\">Destination will be on the right</div>"
+              }
+            ],
+            "distance": {"text": "129 km", "value": 128746},
+            "duration": {"text": "1 hour 26 mins", "value": 5135},
+            "end_address": "Brurya St 8, Tiberias, Israel",
+            "end_location": {"lat": 32.7959304, "lng": 35.5309967},
+            "via_waypoint": [],
+            "start_address": "Totseret ha-Arets St 1, Petah Tikva, Israel",
+            "start_location": {"lat": 32.090177, "lng": 34.8595317},
+            "traffic_speed_entry": []
+          },
+          {
+            "steps": [
+              {
+                "distance": {"text": "1 m", "value": 0},
+                "duration": {"text": "1 min", "value": 0},
+                "polyline": {"points": "qmdgEwszwE"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.7959304, "lng": 35.5309967},
+                "start_location": {"lat": 32.7959304, "lng": 35.5309967},
+                "html_instructions": "Head on <b>Brurya St</b>"
+              }
+            ],
+            "distance": {"text": "1 m", "value": 0},
+            "duration": {"text": "1 min", "value": 0},
+            "end_address": "Brurya St 8, Tiberias, Israel",
+            "end_location": {"lat": 32.7959304, "lng": 35.5309967},
+            "via_waypoint": [],
+            "start_address": "Brurya St 8, Tiberias, Israel",
+            "start_location": {"lat": 32.7959304, "lng": 35.5309967},
+            "traffic_speed_entry": []
+          },
+          {
+            "steps": [
+              {
+                "distance": {"text": "0.1 km", "value": 135},
+                "duration": {"text": "1 min", "value": 27},
+                "polyline": {"points": "qmdgEwszwEAJSjACLENGHIJMLGHWd@Yh@"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.7965362, "lng": 35.5297796},
+                "start_location": {"lat": 32.7959304, "lng": 35.5309967},
+                "html_instructions": "Head <b>west</b> on <b>Brurya St</b> toward <b>Bialik St</b>"
+              },
+              {
+                "distance": {"text": "33 m", "value": 33},
+                "duration": {"text": "1 min", "value": 13},
+                "maneuver": "turn-right",
+                "polyline": {"points": "kqdgEclzwESK]U"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.796793, "lng": 35.529946},
+                "start_location": {"lat": 32.7965362, "lng": 35.5297796},
+                "html_instructions": "Turn <b>right</b> onto <b>Bialik St</b>"
+              },
+              {
+                "distance": {"text": "45.9 km", "value": 45884},
+                "duration": {"text": "31 mins", "value": 1866},
+                "maneuver": "turn-left",
+                "polyline": {
+                  "points": "}rdgEemzwEMGADMf@Kd@?@GLMREFQVY\\W^]b@y@rAAL?DAF@L?@@HJd@DHHLNNLNb@ZNHD@^R^PJHB@\\R^TpCbB?@^`@DLBJB^@JAL?HCNIXCDGNIRSb@O\\EHOXS`@ILKRSb@S`@Ub@KTGJSb@Sb@U`@MXEHU`@S`@ILKROVGFCBWVKJOLQLYRCBUNSXSXIPIPQb@Sf@O^ELUj@ENYz@k@jBSl@Ot@Ch@AX?T@BBZJd@LZT^j@h@VJ\\Jr@FfABtAAhB?d@Ah@CVAd@ENC`Dg@TEzBMnBRXF`@JdATb@HVFH@`@Jb@HFBXFb@H`@H`@L`@LHBVJf@Th@ZBBVNb@ZZVTVd@l@\\n@JPXz@Tt@Jd@T~@\\xAPr@?@d@hBThAJf@Pn@HVNb@z@jCnBjGjBzFt@|BNr@Hf@L~@Hx@Bx@AzAK~ACJGf@]`C]tBKf@Gb@ADGr@CdACv@AjABxAHjAPfBTtAXfBJf@@HtAzHp@jDr@vDf@`Db@jCJ~@HhABn@?V@x@CvAGtAMbAKr@EXCLUlA[rAwAnGs@nCgD~NCDKf@[pAg@~B[zASjAIp@QzAGx@Gx@ItAEzAKtDG~BWhIMdGCpCA`@A`@Af@Af@GrAG~DAr@@xHDbCLhEHfE@V?X@^@^n@zW@NFlEPxG?VHvDNjHBdAHrETtHJfEBbAXjDb@~Bp@xB@@x@rB`A~Ax@~@x@|@ZZXXFF\\^lL~K\\\\pClC|@|@z@hA@@h@t@Xd@d@`Ap@`Bd@|A^pB@HFh@Hn@JvAB|BFtDHdG@pCRvP@XDzETxNBfBD~DDlFDlB?H?J?L@rAJfMBbB@h@\\dTBxADdCB|AJ~D?BHzAFl@JlA\\dCLr@lA|EnAbEd@bB@BTv@V|@jA|D^nAJZp@xBjAxDNh@Vz@FRDLl@`CZhA`@pAf@`BVv@h@xANZXd@r@jAj@x@`E|F|@nAh@~@HRZr@FTf@fBHTBPH\\BHHf@BNFf@FvA@D?lA@NCnB?LGtB?NEbBAZStHC|AIvAOrE?xB?fBB`BFdAHtAPpA\\lBp@zBH`@nAdEp@xBhAtDj@fB^pAr@`C^pAXbAtAfFdAvDx@~CzAvFz@~Cr@hChA`En@hB|@pCxA|DfAtCz@lB\\v@Rb@t@dBHPj@jA^t@vBpE\\z@LZlCfGBBnA|Ch@pAZx@FNt@pBVn@Z|@|@pCb@lBRbA?Bj@nELlAXhCZxC\\fDvAtNd@|E@PdDz\\T`BLhA^bDPlBJ|@@PPdCLxC@zHKtBMbAOzAs@zEu@fEMz@g@tCgBvKi@bDi@`Da@bCc@pCIh@EZQlAObAu@`GGh@YfDMlBCr@QrEEjAAh@AL?NAN?NAd@CdAA`@GhB[zKAh@IpCIvCGbBYhKWjIOpIA`@MbDI~AOpBa@bE?Dm@fEIn@y@vFIh@If@Ih@[zB]xBoAlIaAzGe@bDkA~H[tBi@lDIh@g@bD?@u@xEM|@Mz@{BnOw@nFCPIh@If@m@nEIf@?DIb@SpAG^e@|CCNGf@AFk@fEO~@c@vEQhCAj@Cf@EvAAr@AlBDrD@Z?L@h@LtI@ZBfAN~G?f@@lDGdDKnBOfCK~@UtBq@fE{@lDg@jBcA`Dg@tAgAfDeEjMc@fBMh@WjAW~AAFG^S|AOfBKxAKfC?rCBnCJnCt@|N\\jGRdFBh@@j@Bh@Bh@JfCVlIHhDBh@@h@Bj@PtGHrCDvA?BBz@@Tf@hPDtABh@F`CRpCFr@@JFf@Fh@DZJdAFZFf@F`@Nv@Jd@R~@Pp@ZlAHZDJNd@X|@d@tAt@hBvApCT`@Rb@PZlAlBhAdBV^V^V^T^V^V`@V^V^DHPR@@JPV^T`@JNV^T^BDRXV`@T^T\\@BT`@T`@T^BFFJpAtCn@`B@Dx@bCPd@BHHZLf@Lf@Ld@Lf@Nf@BLRv@Rz@FRLf@Lf@H^@DNf@Ld@Lf@Nf@Ld@Lf@L`@?BRt@BJLf@FXDLLf@Ld@Lf@BJJXNd@Nf@HXDJNd@Nd@L\\BFPb@b@hAPb@Rb@Rb@?@@@BBDFBDP\\h@~@lBtD\\j@l@fA`@t@vBlDPTpC|D`B`C`BnBf@r@dBlBZ\\Z\\`A~@z@t@ZXLJRNhA~@rGnFfE~CNJFDTP\\VNLLH\\V\\V\\T\\V\\VDBVR@@ZT\\VZVPLJH\\V\\V\\V\\XFDRP\\Vp@h@HFZV\\V\\V\\VXTB@\\VZVz@n@\\V\\T\\VRNHF\\V\\VxAfA\\V\\V\\TPNJF\\VXV@@\\T|@n@\\THHPL\\XFDTP\\Vj@d@~@x@DBZX\\Vx@p@ZX\\XrApAxDtDfAhAdB`BXZnObObC~BtBtBDFdAbAlEzEzGlGh@h@~@bA@@B@BDRPn@p@h@j@fEdEv@x@xMvMtBpBZXPPpCpCZZlBlBZZpApAHHjApAfAtAn@|@NPt@nAXf@nAbCv@bBTj@j@zAt@fCXbANp@VbA@JJf@Jf@BTZxBr@tFf@|DFh@Fh@Fh@Fh@`@~Cz@fH@JD\\NrAHt@RhBh@|D^jCJn@D\\BJr@|EDV`@pCNz@Jf@ZhBN~@RhADVNx@TpAP~@j@tCj@|Cj@xCHf@`@xB`@xBJf@Jh@TnAVpA?@Jd@Hf@`@vBj@zCb@`CDPDTn@jDt@dEp@jD\\jBBPFTv@hE@BlAtGF\\b@rBXrAXdAd@dBZjAFVFL`@tAh@~Al@dBp@hBJXp@`Bl@rA@@`AnB~@bBrA|BhCdExCpEl@~@|CvE^h@lC~D|A|B@@V^n@~@jBrCr@fAr@jAn@jAN\\NXHPVn@BDRl@Tr@DPNd@BJPx@Np@?DNx@Fl@BLBZ@L@X@NB\\@l@@h@?H?h@Aj@Ar@GvBGrACd@]jFEj@UbEGbASjEAFGtAEh@Q|C?J[|FAJI`BEz@AP?VCh@A~@Av@?p@Bp@Bb@?RBVBX?BHp@Jv@L|@@FJh@BNFVJd@Tv@Tt@Xr@Zv@^t@b@v@Vb@HLLPV\\X\\JL`@d@FHj@f@f@b@@?ZVRLHFj@^h@XFBd@TZLRJd@PHB^JNDPDd@JB@j@Hx@Jp@FX@^BdABz@@X?~@BF?Z@P?Z@nADB@Z@RBL@d@F\\Dd@J\\JF@f@Pd@Tb@Rl@^?@|@j@BBHFbBlA`At@j@`@HFDB\\V|AhAzEnD|CzBbD|BvCvBvCvB~C~BRNfAv@\\TLHn@f@z@r@~@t@\\RXPB@n@V`@PZPJHLF^Zd@\\`@`@p@n@^`@DFd@j@d@j@@@`@n@Zh@FHNTP^Vd@HP@@Vj@FLHTPd@Z|@X|@\\nARv@Pv@FZDRP|@~@dGbA`GLr@TjA?Bz@hEJn@Ln@fAjGX|AX~AjApGdA|FRfAp@tDn@jD"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6831719, "lng": 35.1101556},
+                "start_location": {"lat": 32.796793, "lng": 35.529946},
+                "html_instructions": "Turn <b>left</b> at the 1st cross street onto <b>Neiberg St</b>/<wbr/><b>Route 77</b><div style=\"font-size:0.9em\">Continue to follow Route 77</div>"
+              },
+              {
+                "distance": {"text": "0.3 km", "value": 276},
+                "duration": {"text": "1 min", "value": 10},
+                "maneuver": "straight",
+                "polyline": {"points": "ylnfEomhuExCpP"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.682398, "lng": 35.1073482},
+                "start_location": {"lat": 32.6831719, "lng": 35.1101556},
+                "html_instructions": "Continue straight"
+              },
+              {
+                "distance": {"text": "0.7 km", "value": 727},
+                "duration": {"text": "1 min", "value": 28},
+                "maneuver": "ramp-left",
+                "polyline": {
+                  "points": "_hnfE}{guETd@P`@@DJT`@x@BDT`@FLFHFLFFDH\\`@NLRL\\RHBVJVJj@NF@XDTDt@Dp@@PAr@CR?fAEvBIV?j@A|@@@?v@Dp@FB@n@Jr@PXF"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6765984, "lng": 35.1051804},
+                "start_location": {"lat": 32.682398, "lng": 35.1073482},
+                "html_instructions": "Take the exit on the <b>left</b> toward <b>Route 6</b>"
+              },
+              {
+                "distance": {"text": "3.1 km", "value": 3052},
+                "duration": {"text": "3 mins", "value": 153},
+                "polyline": {
+                  "points": "wcmfEknguEv@`@f@X\\Pb@Vd@Z`@Xj@`@@@`At@`Av@rAhA@?ZV~@v@VRx@n@LJNLn@j@|@l@FD^Rb@Xz@^LFbA^PDp@RRDh@L|@N~@Jh@@T@bABP?t@?lAGrAKtCa@|@O`@G`C_@fIuAnDm@DAjAOx@KdAEz@AfA@jAFpAJdALtANhAPnATjAXnBr@TJdAh@bBhATPZVHHRNRN@@~@`At@x@z@dAv@fAz@|AP^n@pA`@z@JR`BfDdA`C~@pBnAdCt@`BLXDNDLHt@"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6534386, "lng": 35.0938874},
+                "start_location": {"lat": 32.6765984, "lng": 35.1051804},
+                "html_instructions": "Continue onto <b>Route 6</b><div style=\"font-size:0.9em\">Toll road</div>"
+              },
+              {
+                "distance": {"text": "5.6 km", "value": 5642},
+                "duration": {"text": "3 mins", "value": 196},
+                "maneuver": "turn-slight-left",
+                "polyline": {
+                  "points": "_shfEygeuEb@hATt@Pp@v@hDr@|Cr@dDThAf@zCh@fCt@nCdAxCh@tAf@pA^x@\\z@h@`A^r@`@t@z@nAh@v@h@p@f@r@NTtBhCrAzApArA~ApA^VTPFDx@j@nBvAz@h@n@`@t@h@j@\\RNJHn@b@?@b@Z\\XXV\\Z^\\b@p@rAtBz@~At@`Bd@fAXv@Rl@Rn@\\jAJ^Pz@Rz@ZbBHf@Lv@NbALrAJ`Ad@vDF^@FnAzJ\\tBP|@d@`Bd@rAd@jAr@lAzAnBNPZZXX~@t@rAz@lAr@dDtAxLjDd@LbBb@dAV`@J`@J`@J@?bAVx@RnAVb@H`@J@?^H@?dAPjBXd@HpCf@~Ab@pA`@JFx@^f@VhAp@z@l@BBhA|@rDxCn@h@XRNJ\\TfBnAhChB`G`Et@h@tDlCbAn@pA`AzAnAdAz@xBtBlCdC"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.6188629, "lng": 35.0546338},
+                "start_location": {"lat": 32.6534386, "lng": 35.0938874},
+                "html_instructions": "Slight <b>left</b> onto <b>Route 70</b>"
+              },
+              {
+                "distance": {"text": "64.3 km", "value": 64297},
+                "duration": {"text": "35 mins", "value": 2103},
+                "maneuver": "keep-left",
+                "polyline": {
+                  "points": "{zafEmr}tEb@^bCrCNNXZXZr@t@jAlA`A|@jAfAhAz@t@h@z@j@pA|@hE|BzJpFtAt@fBbA^Rv@b@xAx@LFJFbFnC^R|@f@^R^RbAh@z@b@~C`BPHlAn@VLFBnAd@ZL~CfAzCn@x@NZFZFF@tB\\N?fADfAL`@@b@@b@@f@BjCBL@xBE^AZCrAG@?ZCxBStASnB[`@G~AWHC`@K`@Kb@K`Co@FA`@K`@KvA[NE`@KdAU`@Kb@K`@KfBa@fBa@lDy@`@KVGHC`@IdAWdAWr@QNCpDs@bC_@DAb@CbBKF?b@AbBG\\?f@?d@?zCHX@TBn@DD@vAPpB^dCn@JBJBxA\\JD|B`@jCf@`@JvFjAjAT`E`ApAZ`@JzBh@|A\\~@T|@R^JXFfE~@`FfAbATtAXxD~@lFjAvDz@b@H`@JNBPDb@JfB`@h@L~AZb@Jf@JfDx@ZH|@Tf@NVFlBn@l@R`A\\j@Vj@VfBx@vA|@n@\\h@`@nCpBj@d@HFr@p@`A~@pArAn@p@r@x@LJtCfDNNd@h@HJ|AfBVXBBDDLLXZ`@`@f@h@TVr@r@XX^\\jAhAnClBbAt@nBdA~Av@lBt@LFrAh@RFh@RhAZfAVt@NfAPjAFjDHtC@|@?b@?B?^?bIAnB?dB?hACb@?\\AdE?vCJxBPR?NBXD`@DzATp@Lx@PHBb@J`@JpA\\nBr@bBj@hAh@LDlAn@d@TdAj@d@RzGbD|Ap@RHJDjAb@fAb@h@Rx@R|A^hB^n@FrBP|AF`CBpCCxFCd@?lH?jFDfDC\\?p@?JAX?rDAtDA`A@bABZB\\@nCCD?\\?b@?fA?jB?fA@fA@V?J?b@?b@@~@?vCCb@A|CC|ACb@?b@A`Z_@jBC^A`BEH?`CA~DUv@?\\?T?b@?d@@tEHfA@b@@fA@T@|LXnCFb@@fABpDHnCFhBBhABb@?~GJfJLjBBb@@dLXxCBrCEf@A~@IbAKd@Gx@KpAS`@Gb@IVC^I~@UjAa@h@UfAe@x@e@b@Ud@UzA}@vCgBJG\\YzEaEdCwBd@c@|@}@dC}Bv@u@v@u@v@s@Z[lCcCZY~B{BhA{@NOPMRSRQPSXULKJI\\Yd@]j@_@jAo@nAs@|@c@`A_@NEXKDChA]~@UbAWLCx@MPErAQhBUxAIz@Ex@At@@bEHhDVtAR@@bB\\`@HhB^p@LlFhAfDr@d@JpCl@xDl@rBVhD`@n@DxAFfBBxABxABfDGpBQpAQLEr@KdAUvA[b@KZI`@KHCVGb@K`@K`@I`@Kb@KNEPEZIDATELC`@Kb@I`@I`@Kb@I`@IFCZE`@GNCRCHAXEZEDAb@Eb@Eb@ERCNAb@C`@Ab@Cb@CPAP?b@Ab@AHAX?b@?b@?P?P?b@@b@Bb@@b@@b@@^BB?b@@b@Bb@@b@@b@Bb@@`@Bb@@b@@P@P@b@?b@@b@@b@@b@?b@@b@@b@@b@?b@@b@@b@@b@?b@@P@P?D@rDJl@BN?p@D^Dd@BVBZBhAPn@H~Dp@hAXb@JJBTFfCj@fAV?@`@Lb@LhAb@nBz@fB~@HDTN|@j@DBVPxA`AlDzCBBVTnBlB|NpN|B|BZXzBxBhAdAp@n@d@h@~B|Bf@d@jAjAn@j@zFpFpEdERLrCpBhDpBvDdBD@`Cx@`@NF@VJ`@Lx@T|Ab@zBd@hBVb@FdBT~CTtEJzBAnAGb@ArDMbCIfGQ|AEtCOfGQ~AGfAEb@AnBI|BEF?rDB|@H|CNjBNb@Bb@DtE\\^BR@N@b@DbHb@~I\\nCJvEFfD?vOLhCD`@@b@@b@@b@@b@@b@@b@@b@@b@@b@@b@@b@@b@@b@@b@@`@@b@@b@@R?N?b@@b@@N@R?b@@b@@b@@b@@b@@b@?B@^?b@@b@@b@?b@@b@@b@@b@?b@@b@@b@@b@?b@@b@@b@@b@?b@@b@@Z?F@b@?b@@b@?b@@b@?b@@b@@b@?`@@b@?b@@b@@b@?b@@b@?b@@b@@b@?b@@b@@b@Bb@BP@jDVfCVdC^b@HNBPD`@Hb@J`@HPDx@PrC|@`AZfCv@|ExANFfCx@`@LbAZdBj@`A\\`@N~RtGxBt@d@N|Af@fBb@l@Nx@Nd@HdCTh@DbBJvCFdAC`BE|AIVCpDWfM}@pBMrDWnCSb@Eb@CpAK|NiAbFQlBBtBHtBJvAP|APbCd@zCx@t@Vh@TjBr@rGvBzEdBj[fLtHlCdP`Gn@R`@LdBh@`@LHDfFjAhD^vCNhB@b@?b@@`FUjFy@dCa@b@IlDq@b@I~JoB`@IpE{@hCg@lOoChB_@lKwBhGgAvFq@TE`Iq@tDOrDQbGQNAbCCbAAl@A~FBtCDdDHtBHR@vDNzIX~On@jBHb@Bl@B|Ob@rFVtDTXDfHr@fOlCd@LdATdCl@B@vBt@vDhA`@LvAb@tJ`EtKvFJF\\TvCpBJFn@f@\\VpGzEnCnBrA~@tF`E\\VNJj@`@z@l@xB|AvAbAfC~A|D~Bp@\\ZNxAz@`F`ChD`BhBx@~@^^PhNfFlIpCrBp@bf@tOdWhIxAf@rA`@`@N`StG^LnEvAbV|H|CbAv@TlRpEjUrFjDx@bM~CxQlGB@|@\\hOpFtDrAhFlB`@NbBl@^NhMzETFpDtAvDtAlIxCbJbDLDrIbDfItCbBr@nFbCpBhA^RTLrEzCJFbJnGvK`IhWbR^XjFtD|@l@pDjCbCfB~FjE`At@RNzB|AzCrBtG~Ej@f@`@XjChBTPdCbB`B|@rC|A~BjAlBt@vBr@`@LdBh@rBl@jCj@xAV~B^~BVdBNrEZfDBbDA|BI~DO~Hy@bAKrFi@nKcAfD]nAMfFg@bFa@|Fc@b@Eb@C`@E@?b@EvD[lCS|SkB|C[~LoA|Eg@zC_@~OaBrFm@rQoB@?`@EjAMhCW`Iw@h@G|ViChFk@hD]bAKb@ChBQ|DSrEKlF?xEN~Fd@jCXb@D`@Dn@HdFz@lDt@d@NxDhAfEvAfDvA^PrAl@h@VD@bAh@vCbB\\RPJRJ`D|BbEbD|DrDtGlGz_@r^fLrKZZv@r@ZZ~DvDz@v@nBnBdHzGlDdDv@t@XZvFnFrBjBzBpBxErDFDh@\\VLdAp@p@`@rBlAlDlBhEpB`@PHBhAb@`@N~@^bCv@D@t@TLDhCl@LB|Bf@zCf@vBXlBXNBnCT|CLxIh@T@nZdA~BHn_@pB`@DhKj@b@BtNv@fAFb@BhBJfTjApIj@jXfBnFZ`GXpBDh@@T@V?zACBA|AI|@Gz@K|@ObIyA"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.074937, "lng": 34.9332119},
+                "start_location": {"lat": 32.6188629, "lng": 35.0546338},
+                "html_instructions": "Keep <b>left</b> to continue on <b>Yitzhak Rabin Hwy</b>/<wbr/><b>Route 6</b>, follow signs for <b>South</b><div style=\"font-size:0.9em\">Toll road</div>"
+              },
+              {
+                "distance": {"text": "7.4 km", "value": 7378},
+                "duration": {"text": "5 mins", "value": 300},
+                "maneuver": "ramp-right",
+                "polyline": {
+                  "points": "kswbEq{etEx@@n@KdCc@bC_@`B[t@M~@OJAb@E@?^C@?XAp@?d@Dx@L~@Pl@Pp@L^Jn@F^D\\BF?R@T?`@?d@Ar@HFBDDDDJRDN?D?@?\\?\\?dB?hD?hN@fH?tA?jDBxGBnEHtDLrGL|D@L?LTjGl@tXrAh_@^tQ\\dNB`A?lB?X?r@?d@A|@G`AU`CKp@}BxJSv@kB`IcAvE[nBUhBMvAG|@IhAInACh@IdAYvEUbCa@vE_@bCg@xC}AxHg@`DOfBG|@Ex@Ez@C|@A|A?~A@dBDpAJzCFlCBtB@bC?PAxB?BEvACdAS`EAN]rHInDCn@IvEGtIEbD?b@GfECjC?h@Az@BlB@~@FrAPpBR|AZrBZjBF^@FrAvG"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.0702227, "lng": 34.8640893},
+                "start_location": {"lat": 32.074937, "lng": 34.9332119},
+                "html_instructions": "At the interchange <b>Nahshonim Interchange</b>, keep <b>right</b> and follow signs for <b>Route 471</b> toward <b>Petah Tiqwa</b>"
+              },
+              {
+                "distance": {"text": "0.3 km", "value": 342},
+                "duration": {"text": "1 min", "value": 31},
+                "maneuver": "ramp-right",
+                "polyline": {"points": "{uvbEqkxsE@tA?FVnBFh@Fh@VtBHj@p@~F"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.069593, "lng": 34.860548},
+                "start_location": {"lat": 32.0702227, "lng": 34.8640893},
+                "html_instructions": "Take the exit toward <b>Derech Yitshak Rabin</b>"
+              },
+              {
+                "distance": {"text": "1.6 km", "value": 1609},
+                "duration": {"text": "3 mins", "value": 168},
+                "maneuver": "turn-right",
+                "polyline": {
+                  "points": "}qvbEmuwsEIZENCFGHWTO@A?{APy@Dy@Bc@@qADoH@cA@m@EUAi@?[CmCMqCMg@C_BIYAQAYAo@A{AMoCMmCKgHE_E?e@?eBC]@[?O?w@?{@?A?]A_AAQ?m@Cm@C"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.083843, "lng": 34.8605326},
+                "start_location": {"lat": 32.069593, "lng": 34.860548},
+                "html_instructions": "Turn <b>right</b> onto <b>Derech Yitshak Rabin</b>"
+              },
+              {
+                "distance": {"text": "0.4 km", "value": 427},
+                "duration": {"text": "2 mins", "value": 105},
+                "maneuver": "turn-left",
+                "polyline": {"points": "_kybEiuwsESAC`@?RAVOhDMtCGxA]dK"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.0843133, "lng": 34.8561485},
+                "start_location": {"lat": 32.083843, "lng": 34.8605326},
+                "html_instructions": "Turn <b>left</b> onto <b>Tova ve-Shim'on Darneger St</b>"
+              },
+              {
+                "distance": {"text": "0.3 km", "value": 339},
+                "duration": {"text": "1 min", "value": 44},
+                "maneuver": "roundabout-right",
+                "polyline": {
+                  "points": "}mybE}yvsEC@?@A@A??@A@?@A@?@A@?@?@?@?@?@?@?@?@?B?@@??B@BA?C@CBiB|A[X[Xy@r@i@b@e@r@Sn@Ir@IbA?R"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.0861078, "lng": 34.8535054},
+                "start_location": {"lat": 32.0843133, "lng": 34.8561485},
+                "html_instructions": "At the roundabout, take the <b>2nd</b> exit onto <b>Harav Goren St</b>"
+              },
+              {
+                "distance": {"text": "0.2 km", "value": 158},
+                "duration": {"text": "1 min", "value": 23},
+                "maneuver": "roundabout-right",
+                "polyline": {
+                  "points": "eyybEmivsECBCBABABAD?D?B?B?DC?Q@G@C?E?E?G?MAEA[ESCKCWCsAQ"
+                },
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.08738690000001, "lng": 34.8534807},
+                "start_location": {"lat": 32.0861078, "lng": 34.8535054},
+                "html_instructions": "At the roundabout, take the <b>1st</b> exit onto <b>Magshimim St</b><div style=\"font-size:0.9em\">Destination will be on the left</div>"
+              }
+            ],
+            "distance": {"text": "130 km", "value": 130299},
+            "duration": {"text": "1 hour 24 mins", "value": 5067},
+            "end_address": "Magshimim St 20, Petah Tikva, Israel",
+            "end_location": {"lat": 32.08738690000001, "lng": 34.8534807},
+            "via_waypoint": [],
+            "start_address": "Brurya St 8, Tiberias, Israel",
+            "start_location": {"lat": 32.7959304, "lng": 35.5309967},
+            "traffic_speed_entry": []
+          },
+          {
+            "steps": [
+              {
+                "distance": {"text": "0.4 km", "value": 430},
+                "duration": {"text": "1 min", "value": 65},
+                "polyline": {"points": "eazbEgivsEy@KYCi@GwAM}Hq@e@GcAM}BU"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.0912145, "lng": 34.8541447},
+                "start_location": {"lat": 32.08738690000001, "lng": 34.8534807},
+                "html_instructions": "Head <b>north</b> on <b>Magshimim St</b> toward <b>HaBitahon St</b>"
+              },
+              {
+                "distance": {"text": "0.1 km", "value": 101},
+                "duration": {"text": "1 min", "value": 19},
+                "maneuver": "turn-right",
+                "polyline": {"points": "ayzbEkmvsELuE"},
+                "travel_mode": "DRIVING",
+                "end_location": {"lat": 32.0911376, "lng": 34.8552102},
+                "start_location": {"lat": 32.0912145, "lng": 34.8541447},
+                "html_instructions": "Turn <b>right</b> onto <b>HaShiloah St</b><div style=\"font-size:0.9em\">Destination will be on the right</div>"
+              }
+            ],
+            "distance": {"text": "0.5 km", "value": 531},
+            "duration": {"text": "1 min", "value": 84},
+            "end_address": "Hashiloh Street 9, Petah Tikva, Israel",
+            "end_location": {"lat": 32.0911376, "lng": 34.8552102},
+            "via_waypoint": [],
+            "start_address": "Magshimim St 20, Petah Tikva, Israel",
+            "start_location": {"lat": 32.08738690000001, "lng": 34.8534807},
+            "traffic_speed_entry": []
+          }
+        ],
+        "bounds": {
+          "northeast": {"lat": 32.7995334, "lng": 35.5304872},
+          "southwest": {"lat": 32.0668305, "lng": 34.8461922}
+        },
+        "summary": "Yitzhak Rabin Hwy/Route 6 and Route 77",
+        "warnings": [],
+        "copyrights": "Map data ©2024 Google, Mapa GISrael",
+        "waypoint_order": [0, 1, 2],
+        "overview_polyline": {
+          "points": "srzbEaowsEuK{@aAvVe@nc@sB~WigA{O{aBsXqQwNzA}NxK_d@fDcZtOcp@kHym@yN{^_@c`AvJirAbb@qaDiK}JoLVwx@oo@msA{jAsg@iNse@[i`Dp[}aB~Job@iKad@qZ_xA{cAuxCmfAgyC{|@gtA{k@sQuMux@ib@udAaLkmA_BibB|Win@aBaoAwc@qc@}Ay`AtEcm@mP__@cLczCqImhAb@st@mOaVeT}p@}m@a^qK_d@yAg]Rc\\zGos@iD{e@eEaTvEo_@`[kf@l[en@r@mpAyAm`BvAek@w@oWyJi^cLyh@_@mTyBuVwOuPuQke@cYqtB{c@gcA~Owb@|Ayg@{QmeBinAyaA_^iVmS{Lis@m_@ib@cUk]qPeo@eVkb@k]aLo[rEoZ[{_@wUa]gNoM{YyNwx@iOc_@kv@wi@ii@cNiVs[pBetAki@k_Agc@ggBiW}eBkKe_@y_@kb@_qCsdCy]{]ai@ytAcUi^iKqa@mHo|BtRkx@`Bso@hF}{@xYeqBfNsfCvKi}@gKchA_Quy@o[sw@sZwiAOm{@gWik@yQcy@oEoqCu\\kb@cJiNcCaf@eBuy@~@unAtPwy@sEkf@o@it@yLia@uMcWwj@wB]}KnEoJtKwQv@aHoKeHhIwOuJzMbGlFvBzJaNfTyEbQnRvDxWjAhL~KbPbk@uAf]|Jpu@_M`r@uEvx@hAriAzAlp@jH~Vp`@ne@|Fd|ChQjq@`T|c@dCzSt@`v@zt@vyBjOjq@`K``BsSnsBeHfmAmSduA}Gle@Wxt@}SlhAb@raArIv|Avj@roAxJvZ~^ni@bZtUtXxSvd@z_@vbBdcBzMf`@dJzt@jTxmArNjs@f^fr@pXjn@}D|eAjQ|^x^xEv|@vm@lVz[j^thB|a@`Gdf@lWjl@sGf^lJxW~d@|Ozn@tk@tn@tNl_@fOvm@zeAv]jrA|dAfl@p[v\\jIls@eIvb@kIdZvBb~An]ha@xPdUdVt\\lUzj@bCz]xBtd@tRl}AxBpnBK~aAZnZaMxw@cn@fb@eAlv@nKzf@kIf_ARxYrFhm@ff@`t@`k@dk@hEjbCnBl^r@xa@f@dqAtZnj@zDto@wEr_@jCpdBri@~vAyTrkAoExfBxMhrB`iAxdHb{Bfz@j[l{@dm@xz@vm@vYvLjb@hDvkA}Jh{B{Ttv@uGnd@`Dfp@tZdgBdcB~i@zZ~jAvJtrCvOhh@wGhPvAjEpKfGhhDiLty@mJp{@Evm@]tcA~Fvg@{lAc@cHGmB`Nk@`LkJ|OkJ{@_OuAoBkF"
+        }
+      }
+    ],
+    "status": "OK",
+    "geocoded_waypoints": [
+      {
+        "types": ["establishment", "point_of_interest"],
+        "place_id": "ChIJswMTidRLHRURsQ3mfezGyTs",
+        "geocoder_status": "OK"
+      },
+      {
+        "types": ["street_address"],
+        "place_id": "ChIJ0RKq5Fo-HBURv916TlbUKgI",
+        "geocoder_status": "OK"
+      },
+      {
+        "types": ["street_address"],
+        "place_id": "ChIJ0RKq5Fo-HBURv916TlbUKgI",
+        "geocoder_status": "OK"
+      },
+      {
+        "types": ["establishment", "point_of_interest"],
+        "place_id": "ChIJP1HaY41LHRUR5wiACqHLpx8",
+        "geocoder_status": "OK"
+      },
+      {
+        "types": ["establishment", "insurance_agency", "point_of_interest"],
+        "place_id": "ChIJj3j1xP5JHRURatAuxMJ7MIs",
+        "geocoder_status": "OK"
+      }
+    ]
+  },
+  "priceDetails": {
+    "price": "49.90",
+    "tax": "8.49",
+    "total": "58.39",
+    "kilometer_price": "10.40",
+    "minute_price": "2.50",
+    "station_price": "7.00",
+    "daytime_price": "30.00",
+    "tax_rate": "0.17",
+    "partner_commission": "13.00",
+    "customer_discount": "50.00",
+    "driver_price": "950.00"
+  },
+  "carType": "מונית",
+  "travelDate": "2024-04-04T17:20:00.000Z",
+  "schedule": null,
+  "driverNotes": ""
+}

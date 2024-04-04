@@ -1,0 +1,5 @@
+/Users/aleksandrsamulak/projects/anyway/src2/AniwayMobile/android/app/.cxx/Debug/1r286r6j/x86/CMakeFiles/anielapp_appmodules.dir
+/Users/aleksandrsamulak/projects/anyway/src2/AniwayMobile/android/app/.cxx/Debug/1r286r6j/x86/CMakeFiles/edit_cache.dir
+/Users/aleksandrsamulak/projects/anyway/src2/AniwayMobile/android/app/.cxx/Debug/1r286r6j/x86/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrsamulak/projects/anyway/src2/AniwayMobile/android/app/.cxx/Debug/1r286r6j/x86/fbjni_build/CMakeFiles/edit_cache.dir
+/Users/aleksandrsamulak/projects/anyway/src2/AniwayMobile/android/app/.cxx/Debug/1r286r6j/x86/fbjni_build/CMakeFiles/rebuild_cache.dir

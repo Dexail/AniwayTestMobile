@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085922084610",
+    "project_id": "aniway-mobility",
+    "storage_bucket": "aniway-mobility.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085922084610:android:eab86d078bf94788ee641b",
+        "android_client_info": {
+          "package_name": "com.anielapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVJwksxXz3YZh0P0g-WUynPwCq4dO7-Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
